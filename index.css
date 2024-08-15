@@ -1,0 +1,8 @@
+.parent .child1 p {
+    color: blue;
+}
+
+.child1 p {
+    color: red;
+}
+
