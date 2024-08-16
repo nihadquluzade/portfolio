@@ -1,8 +1,38 @@
-.parent .child1 p {
-    color: blue;
+.container {
+  max-width: 1000px;
+  margin: 0 auto;
 }
 
-.child1 p {
-    color: red;
+.logonav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.nav_list .navigation {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.nav_list .navigation li {
+  margin-left: 20px;
+}
+
+.nav_list .navigation li a {
+  text-decoration: none;
+  display: block;
+  padding: 1em;
+  color: #000;
+}
+
+.button {
+  background-color: #111827;
+  color: white;
+}
